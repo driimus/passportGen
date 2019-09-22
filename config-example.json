@@ -1,0 +1,24 @@
+{
+  "bot_id": "901198298",
+  "bot_username": "kycdemo_bot",
+  "public_key": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxFgESPAnVHvJCtxUnDEp\n5KEqFJYstd08Wu0rNxXok1MsS6NUgxCtiPAqb+y8Bt4qpGJmFEv/o/ZiTXILeD4a\n+JJR1I2uYnZwXMAQ9weLhbwcjIJECciVINUEegg/HEsK9DBvHkrUZA2/MGvrU7sP\n8oLuymOaUG5At2rTnhHuukINQO90dYhzHybIE6nsj3eDcpkxG5ExTUw/2BwITucT\nFsxPbjEf+w2DH//EFXK9YMXJ7MLOPd+JN01LlGqqknVPPyE7CrrreX1Cn7Y2slOK\nyT9iwY/ZWsJCR74l8CsEzmeVFQp2/Lr4XLocY6f0fQ18843bvM089OQKmUILhGTb\nSwIDAQAB\n-----END PUBLIC KEY-----\n",
+  "requested_data": [
+    "personal_details",
+    "address",
+    "email",
+    {
+      "one_of": [
+        "passport",
+        "driver_license",
+        "identity_card"
+      ]
+    },
+    {
+      "one_of": [
+        "utility_bill",
+        "bank_statement",
+        "rental_agreement"
+      ]
+    }
+  ]
+}
